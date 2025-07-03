@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lam Tuan Cong | Web Developer</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#hero" class="nav-logo">LTC</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact" class="btn btn-primary">Contact</a></li>
+            </ul>
+             <div class="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Lam Tuan Cong</h1>
+                <h2>I'm a <span id="typed-text"></span></h2>
+                <p>A passionate developer focused on building efficient, scalable, and modern web applications.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="your_cv_link.pdf" target="_blank" class="btn btn-secondary">Download CV</a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left">
+                <img src="profile.png" alt="Lam Tuan Cong">
+            </div>
+        </section>
+
+        <section id="about">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-container" data-aos="fade-up" data-aos-delay="100">
+                <p>I am a Web Developer with over 3 years of experience in creating robust back-end systems and dynamic front-end interfaces. My journey in tech is driven by a passion for problem-solving and a desire to build solutions that make a tangible impact. I thrive in collaborative environments and am always eager to learn new technologies.</p>
+                <div class="goals">
+                    <div class="goal-card" data-aos="fade-right" data-aos-delay="200">
+                        <i class="fa-solid fa-rocket"></i>
+                        <h3>Short-term Goal</h3>
+                        <p>To accumulate more experience, hone my skills in handling and efficiently managing tasks with precision and speed.</p>
+                    </div>
+                    <div class="goal-card" data-aos="fade-left" data-aos-delay="200">
+                        <i class="fa-solid fa-sitemap"></i>
+                        <h3>Long-term Goal</h3>
+                        <p>To become a Solution Architect, designing and delivering high-impact, elegant solutions for complex business challenges.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2 class="section-title" data-aos="fade-up">Work Experience</h2>
+            <div class="timeline" data-aos="fade-up" data-aos-delay="100">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Oct 2021 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Web Developer (PHP & Java)</h3>
+                        <p class="company">SUN Asterisk Vietnam</p>
+                        <ul>
+                            <li>Developed and maintained over 6 projects using PHP (Laravel) and Java (Spring Boot).</li>
+                            <li>Engineered robust backend systems with MySQL and PostgreSQL.</li>
+                            <li>Built dynamic and responsive user interfaces using Vue.js.</li>
+                            <li>Collaborated closely with clients from the Japanese market, ensuring high-quality deliverables.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Oct 2020 - 2021</div>
+                    <div class="timeline-content">
+                        <h3>PHP Developer</h3>
+                        <p class="company">NTQ Solution</p>
+                        <ul>
+                            <li>Contributed to 2 major web development projects as a backend developer.</li>
+                            <li>Utilized PHP as the primary backend language with MySQL and PostgreSQL databases.</li>
+                            <li>Gained foundational experience in a professional development environment.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-info">
+                        <h3>Banking API & Identity Management</h3>
+                        <p><strong>Role:</strong> Backend Developer (2024 - Present)</p>
+                        <p>Developed backend APIs using Spring Boot for a bank's transfer request system. Implemented Keycloak for robust identity and access management.</p>
+                        <div class="project-tags">
+                            <span>Java</span><span>Spring Boot</span><span>Keycloak</span><span>API</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-info">
+                        <h3>360° Car Viewer System</h3>
+                        <p><strong>Role:</strong> Frontend Developer (2023 - 2024)</p>
+                        <p>Engineered the frontend with Vue.js for an internal 360° car viewing system, allowing for detailed, interactive vehicle image inspection.</p>
+                        <div class="project-tags">
+                            <span>Vue.js</span><span>JavaScript</span><span>UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-info">
+                        <h3>Internal Data Management System</h3>
+                        <p><strong>Role:</strong> Backend Developer (2021 - 2023)</p>
+                        <p>Built APIs with Laravel for an internal management system, featuring efficient data import/export functionalities for large datasets.</p>
+                        <div class="project-tags">
+                            <span>PHP</span><span>Laravel</span><span>MySQL</span><span>Data Processing</span>
+                        </div>
+                    </div>
+                </div>
+                 <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-info">
+                        <h3>Car Wash Mgt. Web App</h3>
+                        <p><strong>Role:</strong> Web Developer (2020 - 2021)</p>
+                        <p>Created a full-stack car wash machine management web app using Laravel, jQuery, and later integrated React Native for a mobile version.</p>
+                        <div class="project-tags">
+                            <span>Laravel</span><span>jQuery</span><span>React Native</span><span>Full-Stack</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2 class="section-title" data-aos="fade-up">My Skillset</h2>
+            <div class="skills-container" data-aos="fade-up" data-aos-delay="100">
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skills-grid">
+                        <div class="skill-badge">PHP (Laravel, CakePHP)</div>
+                        <div class="skill-badge">Java (Spring Boot)</div>
+                        <div class="skill-badge">MySQL</div>
+                        <div class="skill-badge">PostgreSQL</div>
+                        <div class="skill-badge">SQL Server</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skills-grid">
+                        <div class="skill-badge">HTML5 & CSS3</div>
+                        <div class="skill-badge">JavaScript (ES6+)</div>
+                        <div class="skill-badge">Vue.js</div>
+                        <div class="skill-badge">jQuery</div>
+                        <div class="skill-badge">AJAX</div>
+                         <div class="skill-badge">Responsive Design</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & DevOps</h3>
+                    <div class="skills-grid">
+                        <div class="skill-badge">Git & GitHub</div>
+                        <div class="skill-badge">Docker</div>
+                        <div class="skill-badge">Linux (Ubuntu)</div>
+                        <div class="skill-badge">AWS (Basic)</div>
+                        <div class="skill-badge">System Design</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <section id="education">
+            <h2 class="section-title" data-aos="fade-up">Education & Achievements</h2>
+             <div class="education-container" data-aos="fade-up" data-aos-delay="100">
+                <div class="education-card" data-aos="fade-right" data-aos-delay="200">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h3>Hanoi University of Industry (HaUI)</h3>
+                    <p><strong>Major:</strong> Information Technology</p>
+                    <p><strong>Specialization:</strong> Computer Science</p>
+                    <p><strong>Graduated:</strong> 2021 | <strong>GPA:</strong> 3.1</p>
+                </div>
+                <div class="education-card" data-aos="fade-left" data-aos-delay="200">
+                    <i class="fa-solid fa-award"></i>
+                    <h3>Excellent Scholarship Recipient</h3>
+                    <p>Awarded twice during my studies at HaUI for outstanding academic performance.</p>
+                    <p><strong>Years:</strong> 2019 - 2021</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact">
+            <div class="contact-container" data-aos="fade-up">
+                <h2 class="section-title">Get In Touch</h2>
+                <p>I'm currently open to new opportunities. Feel free to reach out!</p>
+                <a href="mailto:lamtuancong2807@gmail.com" class="btn btn-primary">Say Hello</a>
+                <div class="contact-info">
+                    <a href="mailto:lamtuancong2807@gmail.com"><i class="fa-solid fa-envelope"></i> lamtuancong2807@gmail.com</a>
+                    <span><i class="fa-solid fa-phone"></i> 037.353.9357</span>
+                    <span><i class="fa-solid fa-location-dot"></i> Ha Dong, Hanoi</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Lam Tuan Cong. Designed with care.</p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          duration: 1000,
+          once: true,
+      });
+    </script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
