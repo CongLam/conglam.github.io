@@ -1,0 +1,12 @@
+<!-- Placeholder profile image as SVG -->
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" fill="url(#bg-gradient)" rx="150"/>
+  <circle cx="150" cy="120" r="40" fill="white" opacity="0.8"/>
+  <path d="M150 180 C120 180 100 200 100 220 L100 250 C100 260 110 270 120 270 L180 270 C190 270 200 260 200 250 L200 220 C200 200 180 180 150 180 Z" fill="white" opacity="0.8"/>
+</svg>
