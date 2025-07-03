@@ -161,12 +161,23 @@ Traditional web portfolios often require a local server because browsers block l
 
 ## 📊 Performance
 
-- Optimized CSS and JavaScript
-- No external data fetching (CORS-free)
-- Embedded content for faster loading
-- Minimal external dependencies
-- Fast loading times
-- Works offline
+- **Optimized Critical Rendering Path**: Inline critical CSS for immediate rendering
+- **Lazy Loading**: Non-critical resources loaded asynchronously
+- **Resource Preloading**: DNS prefetch and preconnect for faster external resources
+- **Throttled Scroll Events**: Optimized scroll handling for smooth performance
+- **Document Fragments**: Efficient DOM manipulation for faster content insertion
+- **Event Delegation**: Minimized event listeners for better memory usage
+- **No external data fetching (CORS-free)**
+- **Embedded content for faster loading**
+- **Minimal external dependencies**
+- **Works offline**
+
+### Performance Features:
+- **First Contentful Paint**: Hero section loads immediately
+- **Progressive Enhancement**: Core functionality works without JavaScript
+- **Optimized Images**: Lazy loading with fallbacks
+- **Minified Resources**: Compressed CSS and JavaScript (production ready)
+- **Browser Caching**: Proper cache headers for static assets
 
 ## 🚀 Deployment
 
