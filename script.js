@@ -84,7 +84,7 @@
         "skills": [
             {
                 "category": "Backend",
-                "list": ["PHP (Laravel, CakePHP)", "Java (Spring Boot)", "MySQL", "PostgreSQL", "SQL Server"]
+                "list": ["PHP (Laravel, CakePHP)", "Java (Spring Boot)", "MySQL", "PostgreSQL", "SQL Server", "Redis"]
             },
             {
                 "category": "Frontend",
@@ -92,7 +92,7 @@
             },
             {
                 "category": "Tools & DevOps",
-                "list": ["Git & GitHub", "Docker", "Linux (Ubuntu)", "AWS (Basic)", "System Design"]
+                "list": ["VCS (Git & GitHub)", "Docker", "Linux", "CI/CD (Jenkins, GitHub Actions)", "AWS", "System Design"]
             }
         ],
         "education": [
